@@ -52,15 +52,17 @@ public class MyList<T> {
 
     }
 
-    public void remove(int index) {
+    public T remove(int index) {
+        T value;
         try {
+            value=get(index);
             if (array[index] != null) {
                 if (size() - index >= 0) System.arraycopy(array, index + 1, array, index, size() - index);
             }
         } catch (Exception ignored) {
-            System.out.println("Hatalı işlem");
+            return null;
         }
-
+            return value;
     }
 
     public void set(int index, T data) {
