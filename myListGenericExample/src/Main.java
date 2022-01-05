@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        MyList<Integer> liste = new MyList<>();
+        MyList<Integer> liste = new MyList<>(30);
         System.out.println("Liste Durumu : " + (liste.isEmpty() ? "Boş" : "Dolu"));
         liste.add(10);
         liste.add(20);

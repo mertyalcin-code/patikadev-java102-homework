@@ -5,12 +5,11 @@ public class MyList<T> {
     T[] array;
 
     public MyList() {
-        Class<T> clazz = null;
         this.array = (T[]) new Object[10];
     }
 
-    MyList(int capacity) {
-        Class<T> clazz = null;
+    public MyList(int capacity) {
+
         this.array = (T[]) new Object[capacity];
     }
 
