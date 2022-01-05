@@ -8,7 +8,7 @@ public class MyList<T> {
         this.array = (T[]) new Object[10];
     }
 
-    public MyList(int capacity) {
+     public MyList(int capacity) {
 
         this.array = (T[]) new Object[capacity];
     }
