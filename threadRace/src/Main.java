@@ -23,8 +23,8 @@ public class Main {
         t3.start();
         t4.start();
         Thread.sleep(1000);
-        System.out.println(main.oddList.size());
-        System.out.println(main.evenList.size());
+        System.out.println("odd size:"+main.oddList.size());
+        System.out.println("even size:"+main.evenList.size());
         System.out.println(main.oddList);
         System.out.println(main.evenList);
     }

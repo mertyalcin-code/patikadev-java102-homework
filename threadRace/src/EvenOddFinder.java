@@ -20,7 +20,7 @@ public class EvenOddFinder implements Runnable{
             refList=new ArrayList<>(list.subList(5000,7500));
         }
         if(id==4){
-            refList =new ArrayList<>(list.subList(7500,9999));
+            refList =new ArrayList<>(list.subList(7500,10000));
         }
     }
 
