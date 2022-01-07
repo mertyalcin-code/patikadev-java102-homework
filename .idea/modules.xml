@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SQLHomeworks/SQLHomeworks.iml" filepath="$PROJECT_DIR$/SQLHomeworks/SQLHomeworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/bookList/bookList.iml" filepath="$PROJECT_DIR$/bookList/bookList.iml" />
       <module fileurl="file://$PROJECT_DIR$/bookSorter/bookSorter.iml" filepath="$PROJECT_DIR$/bookSorter/bookSorter.iml" />
       <module fileurl="file://$PROJECT_DIR$/fixtureBuilder/fixtureBuilder.iml" filepath="$PROJECT_DIR$/fixtureBuilder/fixtureBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java102Coderbyte/java102Coderbyte.iml" filepath="$PROJECT_DIR$/java102Coderbyte/java102Coderbyte.iml" />
       <module fileurl="file://$PROJECT_DIR$/myListGenericExample/myListGenericExample.iml" filepath="$PROJECT_DIR$/myListGenericExample/myListGenericExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/patikaStore/patikaStore.iml" filepath="$PROJECT_DIR$/patikaStore/patikaStore.iml" />
       <module fileurl="file://$PROJECT_DIR$/threadRace/threadRace.iml" filepath="$PROJECT_DIR$/threadRace/threadRace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tourismAgent/tourismAgent.iml" filepath="$PROJECT_DIR$/tourismAgent/tourismAgent.iml" />
     </modules>
   </component>
 </project>
